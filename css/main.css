@@ -4,6 +4,9 @@ body {
   padding: 0;
   margin: 0;
 }
+body .container {
+  padding: 20px;
+}
 body .product {
   position: relative;
   transition: all 200ms ease-in;
@@ -167,6 +170,23 @@ body .product:hover {
   div.main {
     display: none;
   }
+}
+.product-image-small {
+  display: block;
+  max-width: 190px !important;
+  margin: 0 auto !important;
+  max-height: 300px !important;
+}
+
+.mi-pad {
+  padding-top: 80px !important;
+}
+
+.owl-carousel .pslider img {
+  display: block;
+  max-width: 230px !important;
+  margin: 0 auto !important;
+  max-height: 500px !important;
 }
 
 /*# sourceMappingURL=main.css.map */

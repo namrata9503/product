@@ -7,6 +7,9 @@ body {
   font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0;
+  .container{
+    padding: 20px;
+  }
   .product{
     position: relative;
     
@@ -176,4 +179,20 @@ body {
     display: none;
 }
 
+}
+.product-image-small{
+  display: block;
+  max-width: 190px !important;
+  margin: 0 auto !important;
+  max-height: 300px !important;
+  
+}
+.mi-pad{
+  padding-top: 80px !important;
+}
+.owl-carousel .pslider img {
+  display: block;
+  max-width: 230px !important;
+  margin: 0 auto !important;
+  max-height: 500px !important;
 }
